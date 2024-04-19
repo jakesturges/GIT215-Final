@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jake Sturges">
+    <meta name="description" content="contact page for Alpine Peaks Resort & Spa.">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1><a href="index.html">Alpine Peaks Resort & Spa<br><span>Switzerland</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="first-list-item">Home</a></li>
+                    <li><a href="" id="second-list-item">Accommodations</a></li>
+                    <li><a href="contact.html" id="third-list-item"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="contact-main">
+        <section id="contact-section-1">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>
+                Required fields marked with an asterisk (<span class="required">*</span>);
+            </p>
+            <img src="images/swiss-peak.jpg" alt="A beautiful images of a swiss mountain with a river running through a small valley.">
+        </section>
+        <section id="contact-section-2">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <label for="full-name">full name<span class="required">*</span></label>
+                <input type="text" name="full-name" id="full-name" required>
+                <label for="email">email address<span class="required">*</span></label>
+                <input type="text" name="email" id="email" required>
+                <label for="phone-number">phone number<span class="required">*</span></label>
+                <input type="number" name="phone-number" id="phone-number">
+                <fieldset>
+                    <legend>preferred contact method</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">phone</label>
+                </fieldset>
+                <label for="comments">comments</label>
+                <textarea name="comments" id="comments"></textarea>
+                <input type="submit" name="submit" id="submit" value="Submit Form">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="p1">2024 &#169; - <span>Alpine Peaks Resort & Spa</span> - This site is for educational purposes only</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
