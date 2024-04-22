@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
     var spanElements = document.querySelectorAll('header div nav ul li a span');
     var headerH1 = document.querySelector('header div h1 a')
 
-    if (window.scrollY > 830) {
+    if (window.scrollY > 550) {
         headerDiv.style.backgroundColor = 'white';
         headerH1.style.color = 'black';
 
